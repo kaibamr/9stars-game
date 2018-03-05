@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+// import App from './App';
 import Game from './components/game';
-import Stars from './components/stars';
+import registerServiceWorker from './registerServiceWorker';
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <Game />
-            </div>
-        );
-    }
+const App = () => {
+    return (
+        <div>
+            <Game />
+        </div>
+    );
 }
 
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();

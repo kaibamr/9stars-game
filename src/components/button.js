@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import FontAwesome from 'react-fontawesome';
-import Game from './game';
+import React from 'react';
+
 const Button = (props) => {
 
     let button;

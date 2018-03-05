@@ -1,5 +1,6 @@
 import React from 'react';
-import FontAwesome from 'react-fontawesome';
+import _ from 'lodash';
+
 const Stars = (props) => {
 
     return (

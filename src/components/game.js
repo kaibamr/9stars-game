@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import _ from 'lodash';
 import Stars from './stars';
 import Answer from './answer';
 import Button from './button';
